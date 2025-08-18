@@ -1,0 +1,29 @@
+{
+    "name": "paydibs/module-paymentgateway",
+    "description": "Paydibs Payment Gateway Module for Magento",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "bridzia",
+            "email": "yoonlok.wee@bridzia.com.my"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0||~8.1.0||~8.2.0||~8.3.0||~8.4.0",
+        "magento/framework": "~103.0.0||~104.0.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Paydibs\\PaymentGateway\\": ""
+        }
+    },
+    "keywords": [
+        "magento2",
+        "payment",
+        "gateway",
+        "paydibs"
+    ],
+    "homepage": "https://github.com/yoonlok/module-paymentgateway"
+}

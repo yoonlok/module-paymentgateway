@@ -1,0 +1,32 @@
+# IDE files
+.idea/
+.vscode/
+*.sublime-*
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Composer
+/vendor/
+composer.lock
+
+# Generated files
+/generated/
+
+# Build artifacts
+/build/
+/node_modules/
+/pub/static/_cache/
+/var/
+
+# Log files
+*.log
+/log/
+/logs/
+
+# Test coverage reports
+/coverage/
+.phpunit.result.cache
